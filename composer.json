@@ -9,9 +9,7 @@
         }
     ],
     "autoload": {
-        "psr-0": {
-            "Elasticsearch": "src"
-        }
+        "classmap": ["src/Elasticsearch"]
     },
     "repositories": [
         {
