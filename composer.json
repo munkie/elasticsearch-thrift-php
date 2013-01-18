@@ -1,12 +1,14 @@
 {
     "name": "munkie/elasticsearch-thrift-php",
-    "description": "ElasticSearch PHP Thrift transport client",
+    "description": "ElasticSearch PHP Thrift transport client. Generated from elasticsearch-transport-thrift plugin thrift file",
     "authors": [
         {
             "name": "Mikhail Shamin",
             "email": "munk13@gmail.com"
         }
     ],
+    "license": "MIT",
+    "keywords": ["thrift", "elasticsearch"],
     "autoload": {
         "classmap": ["src/Elasticsearch"]
     },
