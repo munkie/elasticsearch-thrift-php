@@ -1,7 +1,6 @@
 {
     "name": "munkie/elasticsearch-thrift-php",
     "description": "ElasticSearch PHP Thrift transport client",
-    "vesrion": "1.4.0",
     "minimum-stability": "stable",
     "authors": [
         {
@@ -26,7 +25,9 @@
         }
     ],
     "require": {
-        "elasticsearch/elasticsearch-transport-thrift": "1.4.0",
         "leric/php-thrift": "0.9.0"
+    },
+    "require-dev": {
+        "elasticsearch/elasticsearch-transport-thrift": "1.4.0"
     }
 }
