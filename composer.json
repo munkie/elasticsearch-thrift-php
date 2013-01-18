@@ -1,0 +1,33 @@
+{
+    "name": "munkie/elasticsearch-thrift-php",
+    "description": "ElasticSearch PHP Thrift client",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Mikhail Shamin",
+            "email": "munk13@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Elasticsearch": "src"
+        }
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "elasticsearch/elasticsearch-transport-thrift",
+                "version": "1.4.0",
+                "dist": {
+                    "url": "https://raw.github.com/munkie/elasticsearch-transport-thrift/patch-1/elasticsearch.thrift",
+                    "type": "file"
+                }
+            }
+        }
+    ],
+    "require": {
+        "elasticsearch/elasticsearch-transport-thrift": "1.4.0",
+        "leric/php-thrift": "0.9.0"
+    }
+}
