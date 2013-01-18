@@ -1,6 +1,7 @@
 {
     "name": "munkie/elasticsearch-thrift-php",
-    "description": "ElasticSearch PHP Thrift client",
+    "description": "ElasticSearch PHP Thrift transport client",
+    "vesrion": "1.4.0",
     "minimum-stability": "stable",
     "authors": [
         {
