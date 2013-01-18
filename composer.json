@@ -1,7 +1,6 @@
 {
     "name": "munkie/elasticsearch-thrift-php",
     "description": "ElasticSearch PHP Thrift transport client",
-    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Mikhail Shamin",
@@ -25,6 +24,7 @@
         }
     ],
     "require": {
+        "php": ">=5.3.0",
         "leric/php-thrift": "0.9.0"
     },
     "require-dev": {
