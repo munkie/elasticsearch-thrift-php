@@ -19,7 +19,7 @@
                 "name": "elasticsearch/elasticsearch-transport-thrift",
                 "version": "1.4.0",
                 "dist": {
-                    "url": "https://raw.github.com/munkie/elasticsearch-transport-thrift/patch-1/elasticsearch.thrift",
+                    "url": "https://raw.github.com/elasticsearch/elasticsearch-transport-thrift/blob/a7c45d4d7ef4cec4a094791f8639a54872243464/elasticsearch.thrift",
                     "type": "file"
                 }
             }
