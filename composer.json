@@ -17,9 +17,9 @@
             "type": "package",
             "package": {
                 "name": "elasticsearch/elasticsearch-transport-thrift",
-                "version": "1.4.0",
+                "version": "1.4.2",
                 "dist": {
-                    "url": "https://raw.github.com/elasticsearch/elasticsearch-transport-thrift/blob/a7c45d4d7ef4cec4a094791f8639a54872243464/elasticsearch.thrift",
+                    "url": "https://raw.github.com/elasticsearch/elasticsearch-transport-thrift/a7c45d4d7ef4cec4a094791f8639a54872243464/elasticsearch.thrift",
                     "type": "file"
                 }
             }
@@ -30,6 +30,6 @@
         "leric/php-thrift": "0.9.0"
     },
     "require-dev": {
-        "elasticsearch/elasticsearch-transport-thrift": "1.4.0"
+        "elasticsearch/elasticsearch-transport-thrift": "1.4.*"
     }
 }
